@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/control_unit.xst" -ofn "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 control_unit.ngc control_unit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o control_unit_map.ncd control_unit.ngd control_unit.pcf 
+par -w -intstyle ise -ol high -mt off control_unit_map.ncd control_unit.ncd control_unit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml control_unit.twx control_unit.ncd -o control_unit.twr control_unit.pcf 
+vhdtdtfi -lang verilog -prj L1F21_MSCS_0060 -o D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/control_unit.tfi -lib work D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060//Control_Unit.v -module control_unit -template D:/SOFTWARE/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

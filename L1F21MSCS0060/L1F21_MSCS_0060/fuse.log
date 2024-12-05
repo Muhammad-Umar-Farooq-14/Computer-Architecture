@@ -1,0 +1,34 @@
+Running: D:\SOFTWARE\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Test_File_isim_beh.exe -prj D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Test_File_beh.prj work.Test_File work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Program_Counter.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/ipcore_dir/IM_Code.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/ipcore_dir/DM_Data.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Control_Unit.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Arithematic_Logic_Unit.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Accumulator.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Top_Module.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Test_File.v" into library work
+Analyzing Verilog file "D:/SOFTWARE/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Top_Module.v" Line 73: Port rst is not connected to this instance
+Completed static elaboration
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="arti...
+Compiling module DM_Data
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="arti...
+Compiling module IM_Code
+Compiling module register16b
+Compiling module counter5b
+Compiling module control_unit
+Compiling module alu16b
+Compiling module top1
+Compiling module Test_File
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Test_File_isim_beh.exe
+Fuse Memory Usage: 30180 KB
+Fuse CPU Usage: 764 ms

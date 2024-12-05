@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/alu16b.xst" -ofn "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/alu16b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 alu16b.ngc alu16b.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o alu16b_map.ncd alu16b.ngd alu16b.pcf 
+par -w -intstyle ise -ol high -mt off alu16b_map.ncd alu16b.ncd alu16b.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml alu16b.twx alu16b.ncd -o alu16b.twr alu16b.pcf 

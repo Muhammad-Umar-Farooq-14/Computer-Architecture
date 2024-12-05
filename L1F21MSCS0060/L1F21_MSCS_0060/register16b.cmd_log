@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/register16b.xst" -ofn "D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/register16b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 register16b.ngc register16b.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o register16b_map.ncd register16b.ngd register16b.pcf 
+par -w -intstyle ise -ol high -mt off register16b_map.ncd register16b.ncd register16b.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml register16b.twx register16b.ncd -o register16b.twr register16b.pcf 
+vhdtdtfi -lang verilog -prj L1F21_MSCS_0060 -o D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/register16b.tfi -lib work D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060//Accumulator.v -module register16b -template D:/SOFTWARE/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

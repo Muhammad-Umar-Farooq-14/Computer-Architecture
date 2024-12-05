@@ -1,0 +1,7 @@
+verilog work "Program_Counter.v"
+verilog work "ipcore_dir/IM_Code.v"
+verilog work "ipcore_dir/DM_Data.v"
+verilog work "Control_Unit.v"
+verilog work "Arithematic_Logic_Unit.v"
+verilog work "Accumulator.v"
+verilog work "Top_Module.v"

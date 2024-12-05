@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/SOFTWARE/Xilinx/Practice/L1F21_MSCS_0060/Test_File_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test_File" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/Test_File/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/acc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acc_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/dm_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dm_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/im_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">im_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">im_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/cw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/zf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/j" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_File/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+</wave_config>

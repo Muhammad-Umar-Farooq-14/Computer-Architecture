@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+control_unit instance_name (
+    .opcode(opcode), 
+    .cw(cw)
+    );
+
+
